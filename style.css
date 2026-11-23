@@ -68,3 +68,7 @@ footer a { color: var(--muted); }
   .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 18px; }
   .shots img { border-radius: 22px; border-width: 4px; }
 }
+
+.toc { display: flex; flex-direction: column; gap: 4px; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; font-size: 15px; }
+.doc ol { padding-left: 1.4em; display: flex; flex-direction: column; gap: 6px; }
+.doc h2[id] { scroll-margin-top: 16px; }

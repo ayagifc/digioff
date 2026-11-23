@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>使い方 | デジオフ</title>
+<meta name="description" content="デジオフの使い方。設定アプリやSafari、ショートカットを止める方法など">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="index.html">デジオフ</a>
+    <nav aria-label="ページ">
+      <a href="index.html">紹介</a>
+      <a href="help.html" aria-current="page">使い方</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="support.html">サポート</a>
+    </nav>
+  </header>
+
+  <main id="help" class="doc">
+    <h1>使い方</h1>
+    <nav class="toc" aria-label="目次">
+      <a href="#settings">設定アプリを止める</a>
+      <a href="#search">Safari とショートカットを止める</a>
+      <a href="#extension">5分延長について</a>
+      <a href="#safesearch">サイトを止めているときの検索</a>
+    </nav>
+
+    <h2 id="settings">設定アプリを止める</h2>
+    <p>設定アプリは、デジオフで直接止められません。ロック中に設定からスクリーンタイムの許可を外されないように、ショートカットのオートメーションで、設定を開いたらショートカットに切り替わるようにします。</p>
+    <ol>
+      <li>ショートカットアプリを開き、下の「オートメーション」を押す</li>
+      <li>右上の＋ →「App」を押す</li>
+      <li>「アプリ」で「設定」を選び、「開いている」にチェックを入れる</li>
+      <li>「すぐに実行」を選んで［次へ］を押す</li>
+      <li>「新規空白オートメーション」を選び、アクションの検索で「アプリを開く」を追加する。開くアプリに「ショートカット」を選んで完了</li>
+      <li>デジオフで、ショートカットアプリにもロックをかける。守りたい予約や今すぐロックに一緒に入れてください（アプリを選ぶ画面で「ショートカット」と検索すると出てきます）</li>
+    </ol>
+    <p>ロック中に設定を開くと、ショートカットのブロック画面が出ます。ショートカットは5分延長できないので、ロックが終わるまでオートメーションを切れません。</p>
+    <p class="small">ロックしていないときに設定を開くと、ショートカットが開きます。設定を使いたいときは、そこでこのオートメーションをオフにしてください。使い終わったら、オンに戻すのを忘れずに。</p>
+
+    <h2 id="search">Safari とショートカットを止める</h2>
+    <p>Safari とショートカットは、アプリを選ぶ画面の一覧には出てきません。画面の上の検索に「Safari」「ショートカット」と入れると出てきます。</p>
+    <p class="small">見たくないサイトだけを止めたいときは、Safari ごと止めずに、サイトの欄にアドレス（例：x.com）を入れる方法もあります。</p>
+
+    <h2 id="extension">5分延長について</h2>
+    <ul>
+      <li>使えるのは、全部のアプリを合わせて1日1回です。朝4時に戻ります。</li>
+      <li>ショートカットは延長できません。</li>
+      <li>延長はアプリを使っている時間で数えます。開いていない間は減りません。</li>
+    </ul>
+
+    <h2 id="safesearch">サイトを止めているときの検索</h2>
+    <p>サイトを止めている間は、iPhone の仕組みで、Safari の検索にセーフサーチがかかり、成人向けの結果が表示されません。デジオフからは外せません。サイトのロックが終わると元に戻ります。</p>
+  </main>
+
+  <footer>
+    <span>© デジオフ開発者</span>
+    <a href="help.html">使い方</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="support.html">サポート</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">利用規約（Apple 標準）</a>
+  </footer>
+</div>
+</body>
+</html>
